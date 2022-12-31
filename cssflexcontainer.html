@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container{
+            display: flex;
+            font-size: 5vw;
+            flex-direction: column;
+            justify-content: center;
+            padding: 5em;
+            color: azure;
+            height: 100vh;
+            align-items: center;
+            background-color: rgb(255, 0, 242);
+        }
+        .red{
+            background-color: red;
+            flex-grow: 1;
+            align-self: flex-start;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .green{
+            background-color: green;
+            align-self: flex-end;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="red">Red</div>
+        <div class="blue">blue</div>
+        <div class="green">green</div>
+    </div>
+</body>
+</html>
